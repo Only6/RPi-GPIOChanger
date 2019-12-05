@@ -46,6 +46,9 @@ while True:
             continue
         elif(CoDalej == "zakoncz"):
             break
+        else:
+            print("Błąd!")
+            break
 
 
 
@@ -86,4 +89,7 @@ while True:
         if(CoDalej == "next"):
             continue
         elif(CoDalej == "exit"):
+            break
+        else:
+            print("Error!")
             break
