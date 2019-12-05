@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
-print("Version: 0.1 (Alpha)")
+print("Version: 0.2 (Alpha)")
 print("Support Raspberry Pi: Zero")
 pin = 0
 stan = ""
